@@ -12,4 +12,4 @@ def custom(defined_page):
     return redirect("/")
 
 if __name__ == '__main__':
-    app.run(debug = True)
+    app.run(debug = False, host="0.0.0.0")
